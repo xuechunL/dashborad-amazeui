@@ -3,7 +3,7 @@ import {
   Container,
 } from 'amazeui-react';
 
-class Index extends React.Component {
+export default class Index extends React.PureComponent {
   render() {
     return (
       <div className="ask-banner">
@@ -15,5 +15,3 @@ class Index extends React.Component {
     );
   }
 }
-
-export default Index;

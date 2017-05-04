@@ -6,7 +6,7 @@ import {
   ButtonToolbar,
 } from 'amazeui-react';
 
-class Dashboard extends React.Component {
+export default class Dashboard extends React.PureComponent {
   render() {
     return (
       <Container className="am-padding-vertical-lg">
@@ -66,5 +66,3 @@ class Dashboard extends React.Component {
     );
   }
 }
-
-export default Dashboard;

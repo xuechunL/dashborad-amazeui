@@ -3,7 +3,7 @@ import {
   Container,
 } from 'amazeui-react';
 
-class Cluster extends React.Component {
+export default class Cluster extends React.PureComponent {
   render() {
     return (
       <Container className="am-padding-vertical-lg">
@@ -13,5 +13,3 @@ class Cluster extends React.Component {
     );
   }
 }
-
-export default Cluster;

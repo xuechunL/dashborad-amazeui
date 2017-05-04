@@ -9,8 +9,7 @@ const SiteFooter = function SiteFooter() {
   return (
     <footer className="ask-footer">
       <Container>
-        <p>© {year} PingCAP, Inc. Licensed under MIT license.
-          Developed with WebStorm.</p>
+        <p>© {year} PingCAP, Inc. Licensed under MIT license. Developed with WebStorm.</p>
       </Container>
     </footer>
   );

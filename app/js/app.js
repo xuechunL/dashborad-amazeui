@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   render,
 } from 'react-dom';
@@ -18,7 +18,7 @@ import {
 import RouteLink from './components/RouteLink';
 import SiteFooter from './components/SiteFooter';
 
-class App extends Component {
+export default class App extends React.PureComponent {
   render() {
     return (
       <div className="ask-page">
